@@ -10,7 +10,7 @@
 </p>
 
 <ul>
-  <%= @post.tags.each do |tag| %>
+  <% @post.tags.each do |tag| %>
     <li> <%= tag.name %> </li>
   <% end %>
 </ul>
